@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>Green Invoice! | </title>
 
     <!-- Bootstrap -->
     <link href="${pageContext.request.contextPath}/resources/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -54,8 +54,8 @@
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <h1><i class="fa fa-paw"></i> Green Invoice!</h1>
+                  <p>©2016 All Rights Reserved. Green Invoice! is a Bootstrap 3 template. Privacy and Terms</p>
                 </div>
               </div>
             </form>
@@ -90,8 +90,8 @@
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <h1><i class="fa fa-paw"></i> Green Invoice!</h1>
+                  <p>�2017 All Rights Reserved. Green Invoice! is a Bootstrap 3 template. Privacy and Terms</p>
                 </div>
               </div>
             </form>
