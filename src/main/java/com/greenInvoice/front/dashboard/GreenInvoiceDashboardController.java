@@ -26,6 +26,11 @@ public class GreenInvoiceDashboardController {
     public String index() {
         return "index";
     }
+    
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login() {
+        return "login";
+    }
 
     /**
      * controllerMethod to add two numbers.
