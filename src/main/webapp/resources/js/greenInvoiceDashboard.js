@@ -4,6 +4,7 @@ button.addEventListener("click", myFunction);
 function myFunction() {
   var v1 = document.getElementById('n1').value;
   var v2 = document.getElementById('n2').value;
+  var res = document.getElementById('resultLabel');
   var str = {"value1":  v1 , "value2":v2};
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.open("POST", context + "/addNumber", true);
@@ -11,5 +12,6 @@ function myFunction() {
   xmlhttp.send(JSON.stringify(str));
   xmlhttp.onreadystatechange = function() {
     console.log(xmlhttp.response);
+    res.innerHTML=xmlhttp.response;
   }
 }
